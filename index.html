@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>SERV</title>
+    </head>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="RizGym.cs">
+    <style>
+        body {
+            display: block;
+            color: white;
+            margin: 0px 0px;
+            padding:  0px 0px;
+            height: 1080px;
+            background: url(servimg.jpeg);
+            font-family: 'Baloo Bhai 2', cursive;
+            background-repeat: no-repeat;
+            background-size:cover;
+            scroll-behavior: unset;
+            background-attachment: fixed;
+
+        }
+
+        .left {
+            display: inline-block;
+
+            position: absolute;
+            left: 34px;
+            top: 20px;
+
+
+        }
+
+        .left div {
+            text-align: center;
+        }
+
+        .left img {
+            width: 60px;
+            filter: invert(100%);
+        }
+
+        .mid {
+            border: solid white;
+            border-radius: 20px;
+            display: block;
+            width: 22%;
+            margin: 20px auto;
+            top: 20px;
+
+        }
+
+        .right {
+            position: absolute;
+            right: 34px;
+            top: 20px;
+            display: inline-block;
+
+        }
+
+        .mid li {
+            color: white;
+            display: inline-block;
+            font-size: 19px;
+        }
+
+        .mid li a {
+            color: white;
+            text-decoration: none;
+            padding: 15px 9.7px;
+            width: 50%;
+        }
+
+        .mid li a:hover,
+        .mid li a:hover.active {
+            text-decoration: underline;
+            color: grey;
+        }
+
+        .btn {
+            font-family: 'Baloo Bhai 2', cursive;
+            background-color: black;
+            color: white;
+            padding: 5px 20px;
+            border: 3px solid grey;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background-color: rgb(39, 38, 38);
+        }
+
+        .container {
+            margin: 18px 34px;
+            padding: 128px 22px;
+            width: 26%;
+            display: block;
+            border-radius: 29px;
+        }
+
+        .form-group input {
+            text-align: center;
+            display: block;
+            width: 216px;
+            margin: 8px;
+            border-radius: 19px;
+            height: 24px;
+        }
+
+        .form-group .btn {
+            display: block;
+            margin: 6px;
+            padding: 10px;
+            width: 220px;
+        }
+
+        .logo {
+            margin: -27px 2px;
+        }
+        #logoimg{
+            
+            width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+        }
+    </style>
+
+    <body>
+        <header class="header">
+            <div class="left">
+                <img src="Inkedbicep-muscle-gym-logo-vector-clipart_csp87984107_LI.jpg" alt="">
+                <div style="border:solid white;border-radius: 10px;" class="logo">SERV.COM
+                </div>
+
+            </div>
+
+            <div class="mid">
+
+                <navbar class="ul">
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="aboutus.html" class="active">About Us</a></li>
+                    <li><a href="#" class="active">Our services</a></li>
+                    <li><a href="#" class="active">Our partners</a></li>
+                </navbar>
+            </div>
+            <div class="right">
+                <button class="btn">Login</button>
+                <button class="btn">Sign up</button>
+            </div>
+        </header>
+        <div class="container">
+            <h1>Door step services for you. Register now!</h1>
+            <form action="noaction.php">
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your Full Name">
+                    <input type="date" name="" placeholder="Enter D.O.B">
+                    <input type="text" name="" placeholder="Enter your mobile number">
+                    <input type="email" name="" placeholder="Enter your Email address">
+                    <input type="password" name="" placeholder="New password">
+                    <input type="password" name="" placeholder="Confirm password">
+                    <button class="btn">Submit</button>
+                </div>
+            </form>
+        </div>
+    </body>
+
+    </html>
